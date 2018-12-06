@@ -85,7 +85,6 @@ from pprint import pprint
 
 x = ni.interfaces()
 pprint(ni.ifaddresses)
-pprint(ni.gateways())
 pprint(x)
 # pprint(get_connection_name_from_guid(x))
 
